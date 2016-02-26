@@ -1,0 +1,21 @@
+{
+  "name": "rreilly10.github.io",
+  "homepage": "https://github.com/rreilly10/rreilly10.github.io",
+  "authors": [
+    "rreilly10 <reillyr7@gmail.com>"
+  ],
+  "description": "Skills and career expose of Robert Reilly",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}
