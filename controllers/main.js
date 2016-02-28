@@ -1,3 +1,4 @@
-myApp.controller("MainCtrl",function($scope){
-   $scope.test = "YOYOYOYO";
+myApp.controller("mainCtrl",function($scope){
+   $scope.date = new Date();
+   console.console.log($scope.date);
 });
