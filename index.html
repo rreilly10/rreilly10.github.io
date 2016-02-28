@@ -8,12 +8,23 @@
 </head>
 
 <body ng-app="myApp" style="background:#EBF2F5">
-    <!-- <div class="jumbotron" style="background: url('images/back.PNG') no-repeat center center"> -->
+    <!-- <div ng-controller="mainCtrl">
+        {{test}}
+    </div> -->
+
+    <!--
+    #######################################################################
+        Beginning Hero Section
+        With Card for Basic Information
+    ########################################################################
+    -->
+
+
     <div class="jumbotron" style="background: url('images/rocky_small.JPG') no-repeat center center">
         <div class="card" style="color:#EBF2F5; margin-left:20px;">
             <div class="card-block">
                 <h1 class="card-title"><b>Robert J. Reilly</b></h1>
-                <h3 class="card-subtitle text-muted" style="color:#EBF2F5;">Specalist Software Engineer</h3>
+                <h3 class="card-subtitle text-muted" style="color:#EBF2F5;">Software Engineer</h3>
             </div>
             <div class="card-block">
                 <p class="card-text">
@@ -38,7 +49,36 @@
             </div>
         </div>
     </div>
+
+    <!--
+    ############################################################################
+        Ending Hero Section
+    ############################################################################
+    -->
+
     <div class="container">
+
+        <!--
+        ########################################################################
+            Beginning Navigation Section
+            TODO - CHANGE OUT BELOW CONTENT WITH THE BELOW PILLS
+        ########################################################################
+        -->
+
+        <!-- <div class="row"> -->
+            <!-- <ul class="nav nav-pills">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+            </ul>
+        </div> -->
+
+        <!--
+        ########################################################################
+            Ending Navigation Section
+        ########################################################################
+        -->
+
         <div class="row">
             <h4><span class="glyphicon glyphicon-list-alt"></span> <b>WORK EXPERIENCE</b></h4>
 
@@ -86,11 +126,16 @@
                     </div>
                     <div id="associate-collapse" class="panel-collapse collapse">
                         <ul class="list-group">
-                            <li class="list-group-item">One</li>
-                            <li class="list-group-item">Two</li>
-                            <li class="list-group-item">Three</li>
+                            <li class="list-group-item">
+                                Developed and Designed Cloud Orchestration components to automate the provisioning and configuration of Linux Virtual Machines
+                            </li>
+                            <li class="list-group-item">
+                                Lead internal teams to develop and deploy internal applications using the MEAN Stack Framework and Docker Containers for internal use by the AT&T’s Technology Development Program
+                            </li>
+                            <li class="list-group-item">
+                                Served as an interviewer and liaison to potential new hires to the program
+                            </li>
                         </ul>
-                        <div class="panel-footer">Footer</div>
                     </div>
                 </div>
             </div>
@@ -109,11 +154,16 @@
                     </div>
                     <div id="dd-collapse" class="panel-collapse collapse">
                         <ul class="list-group">
-                            <li class="list-group-item">One</li>
-                            <li class="list-group-item">Two</li>
-                            <li class="list-group-item">Three</li>
+                            <li class="list-group-item">
+                                Managed and designed special projects, including an Order at the Pump automation system
+                            </li>
+                            <li class="list-group-item">
+                                Worked with existing databases to regulate fuel distribution and automate billing
+                            </li>
+                            <li class="list-group-item">
+                                Sole designer of one of the company’s websites
+                            </li>
                         </ul>
-                        <div class="panel-footer">Footer</div>
                     </div>
                 </div>
             </div>
@@ -123,7 +173,11 @@
     </div>
 
 
-
+    <!--
+    ############################################################################
+        IMPORTS BELOW THIS LINE
+    ############################################################################
+    -->
 
     <!--****START OF BOWER IMPORTS****-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -137,6 +191,11 @@
     <script src="controllers/main.js"></script>
     <!--****END OF Angular App IMPORTS****-->
 
+    <!--
+    ############################################################################
+        END IMPORTS
+    ############################################################################
+    -->
 </body>
 
 </html>
